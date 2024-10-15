@@ -1,4 +1,4 @@
-# Python Tetris
+# Scientific Calculator
 Scientific Calculator built in Python by Taehyun Lee. I think that this is a very simple project to learn Python and utilize it. 
 I do not offer any licenses for this project.
 ## How it is made
