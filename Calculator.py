@@ -17,14 +17,14 @@ Rad = True # Radians or Degrees
 Shift = False # Pressed shift or not
 Unit = False # Unit mode or normal mode
 # Colors
-red = '# ff5050'
-green = '# 00cc00'
-lime = '# ccffcc'
-cyan = '# 009999'
-blue = '# 99ccff'
-purple = '# cc99ff'
-orange = '# ff9966'
-yellow = '# ffff66'
+red = '#ff5050'
+green = '#00cc00'
+lime = '#ccffcc'
+cyan = '#009999'
+blue = '#99ccff'
+purple = '#cc99ff'
+orange = '#ff9966'
+yellow = '#ffff66'
 # Counter
 extraBrac = 0 # To add extra bracket for calculations like sin(radians(
 nonBrac = 0 # How much non-brackets there are after the first extra bracket
