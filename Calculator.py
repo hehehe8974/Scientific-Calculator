@@ -1,8 +1,8 @@
-# Calculator by Taehyun Lee
-# For unit conversion, click unit button. Converts the number displayed when clicking buttons such
-# as Km/Mi, which is km to miles. Shift button would change its order.
-# Shift button shows more functions.
-# Enjoy
+""" 
+Scientific Calculator by Taehyun Lee
+For unit conversion, click unit button to convert the number on the operator. Shift button would change its order.
+To use more functions, use the Shift button.
+"""
 
 # Import
 from tkinter import *
@@ -10,12 +10,13 @@ import math
 import threading
 
 # Variables
-operator = ['round('] # Calculation behind
-ans = '0' # Saves last result
-text = [''] # What is shown in the interface
-Rad = True # Radians or Degrees
-Shift = False # Pressed shift or not
-Unit = False # Unit mode or normal mode
+operator = ['round(']
+ans = '0'
+text = ['']
+Rad = True
+Shift = False
+Unit = False
+
 # Colors
 red = '#ff5050'
 green = '#00cc00'
@@ -25,23 +26,25 @@ blue = '#99ccff'
 purple = '#cc99ff'
 orange = '#ff9966'
 yellow = '#ffff66'
+
 # Counter
-extraBrac = 0 # To add extra bracket for calculations like sin(radians(
-nonBrac = 0 # How much non-brackets there are after the first extra bracket
-extraBracLoc = [] # Where the extra brackets is located
-showResult = False # Is it displaying result (automatically inputs ans when clicking signs)
-addMult = ('1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ')', 'e', 'π', 'Ans') # Inputs * when the last text is in this
+extraBrac = 0
+nonBrac = 0
+extraBracLoc = []
+showResult = False
+addMult = ('1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ')', 'e', 'π', 'Ans')
 
 # Tkinter Setting
 cal = Tk()
 cal.title('Super Calculator')
-cal.configure(background=lime) # Background color = lime
+cal.configure(background=lime)
+
 # Displayer
-text_Input = StringVar() # Displays text
+text_Input = StringVar()
 txtDisplay = Entry(cal, font = ('arial', 20, 'bold'),textvariable = text_Input,
                    bd = 30, insertwidth = 4, bg = 'powder blue',
                    justify = 'right').grid(columnspan = 8)
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
 # Functions
 # Inputs in the calcualtor
 def btnClick(num):
@@ -803,3 +806,4 @@ btnConvert = Button(cal, padx = 16, pady = 16, width = 2, bd = 8, fg = 'black',
 btnConvert.grid(row = 4, column = 7)
 
 cal.mainloop()
+
