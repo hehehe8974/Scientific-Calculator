@@ -2,7 +2,7 @@
 Scientific Calculator built in Python by Taehyun Lee.
 I do not offer any licenses for this project.
 ## How it is made
-Create a calculator that functions the same as a scientific calculator. Built using the 'eval' function (while handling potential risks), allowing the calculator to work with more complicated calculations.
+Created a calculator with unit conversions using Python. Built using the 'eval' function (while handling potential risks), allowing the calculator to work with more complicated calculations.
 Multiple situations are considered for errors - such as the number of closed brackets - that cause problems typically in Python.
 The operations are appended into a stack, which allows deleting operations more simple.
 ## How to use it
