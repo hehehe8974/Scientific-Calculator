@@ -7,7 +7,7 @@ Multiple situations are considered for errors - such as the number of closed bra
 The operations are appended into a stack, which allows deleting operations more simple.
 ## How to use it
 Click the buttons for the numbers/operations to be in the operator. Clicking the equal sign evaluates what is in the operator. Shift button allows the user for more functions and unit button allows the user to convert units freely (shift button will change the order).
-The user may choose the trig functions to be in degrees or in radians.
+The user may choose the trig functions to be in degrees or radians.
 ## Screenshots
 ![스크린샷 2024-10-14 223219](https://github.com/user-attachments/assets/f8ed8b25-0694-4b78-8498-bd3abe442513)
 ![스크린샷 2024-10-14 223210](https://github.com/user-attachments/assets/0c89ab29-60c4-49e4-989d-5132c504f8b3)
