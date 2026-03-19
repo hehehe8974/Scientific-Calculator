@@ -36,7 +36,7 @@ addMult = ('1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ')', 'e', 'π', 'An
 
 # Tkinter Setting
 cal = Tk()
-cal.title('Super Calculator')
+cal.title('Calculator')
 cal.configure(background=lime)
 
 # Displayer
